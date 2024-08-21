@@ -10,5 +10,5 @@ Just simply run
 `ifconfig`
 
 ### AIDE Support
-This source code supports AIDE, You just need to install AIDE from Playstore or any Soyrces, then clone this repo.
+This source code supports AIDE, You just need to install AIDE from Playstore or any Sources, then clone this repo.
 
