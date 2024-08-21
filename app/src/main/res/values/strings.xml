@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">IP Finder</string>
     <string name="credit">Developed by ShuhaibNC</string>
+    <string name="refresh">Refresh</string>
 </resources>

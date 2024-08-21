@@ -37,7 +37,7 @@
             android:id="@+id/ipaddress" 
             android:layout_width="fill_parent" 
             android:layout_height="wrap_content" 
-            android:text="127.0.0.1" 
+            android:text="" 
             android:textIsSelectable="true" 
             android:fontFamily="monospace" />
         
@@ -63,7 +63,7 @@
             android:layout_marginLeft="10.0dip" 
             android:layout_marginRight="10.0dip" 
             android:layout_marginBottom="10.0dip" 
-            android:text="Restart" />
+            android:text="@string/refresh" />
         
         <TextView
             android:layout_width="fill_parent"
