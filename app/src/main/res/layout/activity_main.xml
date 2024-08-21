@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:background="@drawable/bluebg"
         android:layout_margin="15dp"
-        android:layout_height="300dp">
+        android:layout_height="320dp">
         
         <TextView 
             android:textSize="50.0dip" 
@@ -62,7 +62,17 @@
             android:layout_height="wrap_content" 
             android:layout_marginLeft="10.0dip" 
             android:layout_marginRight="10.0dip" 
+            android:layout_marginBottom="10.0dip" 
             android:text="Restart" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#f2f2f2"
+            android:gravity="center"
+            android:text="@string/credit" />
+            
         
     </LinearLayout>
 
