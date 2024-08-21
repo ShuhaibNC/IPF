@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:background="#ff303030" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/bluebg"
+        android:layout_margin="15dp"
+        android:layout_height="300dp">
+        
+        <TextView 
+            android:textSize="50.0dip" 
+            android:textStyle="bold|italic" 
+            android:textColor="#ffffff" 
+            android:gravity="center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="30.0dip" 
+            android:layout_marginBottom="20.0dip" 
+            android:text="IPF Tool" 
+            android:fontFamily="sans-serif-condensed-medium" />
+        
+        <TextView 
+            android:textSize="20.0sp" 
+            android:textStyle="bold" 
+            android:textColor="#ffffff" 
+            android:gravity="center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:text="Your IP Address is" />
+        
+        <TextView 
+            android:textSize="40.0sp" 
+            android:textStyle="bold" 
+            android:textColor="#fff2f2f2" 
+            android:gravity="center" 
+            android:id="@+id/ipaddress" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:text="127.0.0.1" 
+            android:textIsSelectable="true" 
+            android:fontFamily="monospace" />
+        
+        <TextView 
+            android:textSize="14.0sp" 
+            android:textStyle="bold" 
+            android:textIsSelectable="true"
+            android:textColor="#ffff0000" 
+            android:gravity="center" 
+            android:id="@+id/warntext" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginBottom="10.0dip" 
+            android:text="" />
+        
+        <Button 
+            android:textStyle="bold" 
+            android:textColor="#000000" 
+            android:id="@+id/restart" 
+            android:background="@drawable/butbg"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="10.0dip" 
+            android:layout_marginRight="10.0dip" 
+            android:text="Restart" />
+        
+    </LinearLayout>
+
+</LinearLayout>
+
+
