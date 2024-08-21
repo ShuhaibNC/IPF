@@ -8,3 +8,7 @@ I didn't find any application in Playstore that retrieves `ap0` or `wlan0` IPv4 
 For Termux users, You don't need this application.
 Just simply run
 `ifconfig`
+
+### AIDE Support
+This source code supports AIDE, You just need to install AIDE from Playstore or any Soyrces, then clone this repo.
+
